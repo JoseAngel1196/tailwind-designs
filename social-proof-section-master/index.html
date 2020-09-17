@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Social proof section</title>
+  </head>
+  <body>
+    <div class="relativev bg-white container mx-auto px-10">
+      <!-- bg-pattern-desktop -->
+      <img src="./images/bg-pattern-top-desktop.svg" alt="desktop-top" class="hidden lg:block absolute top-0 left-0">
+      <img src="./images/bg-pattern-bottom-desktop.svg" alt="desktop-bottom" class="hidden lg:block absolute bottom-0 right-0" />
+
+      <!-- bg-pattern-mobile -->
+      <img src="./images/bg-pattern-top-mobile.svg" alt="mobile-top" class="absolute lg:hidden top-0">
+      <img src="./images/bg-pattern-bottom-mobile.svg" alt="mobile-bottom" class="absolute lg:hidden bottom-0">
+
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 py-16 lg:py-24">
+        <div class="text-center lg:text-left lg:col-span-2">
+          <h1
+            class="mb-4 text-3xl md:text-5xl lg:text-6xl text-pink-900 font-bold leading-none"
+          >
+            10,000+ of our users love our products.
+          </h1>
+          <p class="text-pink-700 leading-relaxed">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+        <div class="lg:col-span-2 space-y-3">
+          <div
+            class="lg:w-3/4 p-5 space-y-3 lg:space-y-0 lg:space-x-10 flex flex-col lg:flex-row justify-center items-center border-none bg-purple-100 rounded"
+          >
+            <div class="flex space-x-2">
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+            </div>
+            <p class="text-xs lg:text-sm text-pink-900 font-bold">
+              Rated 5 Stars in Reviews
+            </p>
+          </div>
+          <div
+            class="lg:w-3/4 p-5 space-y-3 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row justify-center items-center border-none bg-purple-100 rounded transform translate-x-0 lg:translate-x-10"
+          >
+            <div class="flex space-x-2">
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+            </div>
+            <p class="text-xs lg:text-sm text-pink-900 font-bold">
+              Rated 5 Stars in Report Guru
+            </p>
+          </div>
+          <div
+            class="lg:w-3/4 p-5 space-y-3 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row justify-center items-center border-none bg-purple-100 rounded transform translate-x-0 lg:translate-x-24"
+          >
+            <div class="flex space-x-2">
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+              <img src="./images/icon-star.svg" alt="start" />
+            </div>
+            <p class="text-xs lg:text-sm text-pink-900 font-bold">
+              Rated 5 Stars in BestTech
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-16">
+        <div class="lg:flex space-y-3 lg:space-y-0 lg:space-x-4">
+          <div
+            class="py-10 px-8 space-y-3 border bg-pink-900 text-white rounded-lg shadow"
+          >
+            <div class="flex space-x-5">
+              <img
+                src="./images/image-colton.jpg"
+                alt="Colton"
+                class="rounded-full w-12"
+              />
+              <div>
+                <p class="text-sm font-bold">Colton Smith</p>
+                <p class="text-sm text-pink-700 hover:text-pink-500">
+                  Verified Buyer
+                </p>
+              </div>
+            </div>
+            <p class="text-base text-gray-200">
+              "We needed the same printed design as the one we had ordered a
+              week prior. Not only did they find the original order, but we also
+              received it in time. Excellent!"
+            </p>
+          </div>
+          <div
+            class="py-10 px-8 space-y-3 border bg-pink-900 text-white rounded-lg shadow lg:transform translate-y-5"
+          >
+            <div class="flex space-x-5">
+              <img
+                src="./images/image-irene.jpg"
+                alt="Irene"
+                class="rounded-full w-12"
+              />
+              <div>
+                <p class="text-sm font-bold">Irene Roberts</p>
+                <p class="text-sm text-pink-700 hover:text-pink-500">
+                  Verified Buyer
+                </p>
+              </div>
+            </div>
+            <p class="text-base text-gray-200">
+              "Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery."
+            </p>
+          </div>
+          <div
+            class="py-10 px-8 space-y-3 border bg-pink-900 text-white rounded-lg shadow lg:transform translate-y-10"
+          >
+            <div class="flex space-x-5">
+              <img
+                src="./images/image-anne.jpg"
+                alt="Anne"
+                class="rounded-full w-12"
+              />
+              <div>
+                <p class="text-sm font-bold">Anne Wallace</p>
+                <p class="text-sm text-pink-700 hover:text-pink-500">
+                  Verified Buyer
+                </p>
+              </div>
+            </div>
+            <p class="text-base text-gray-200">
+              "Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-black text-white p-5">
+      <div class="container mx-auto flex justify-center">
+        <a
+          href="https://twitter.com/JustCallMeJochi"
+          class="hover:text-blue-500 hover:underline"
+          >Jose Angel Hidalgo Rosa</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
