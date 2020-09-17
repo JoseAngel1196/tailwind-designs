@@ -11,6 +11,10 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
@@ -18,16 +22,37 @@
     />
 
     <title>Frontend Mentor | Social proof section</title>
+    <style>
+      * {
+        font-family: 'Spartan', sans-serif;
+      }
+    </style>
   </head>
   <body>
     <div class="relativev bg-white container mx-auto px-10">
       <!-- bg-pattern-desktop -->
-      <img src="./images/bg-pattern-top-desktop.svg" alt="desktop-top" class="hidden lg:block absolute top-0 left-0">
-      <img src="./images/bg-pattern-bottom-desktop.svg" alt="desktop-bottom" class="hidden lg:block absolute bottom-0 right-0" />
+      <img
+        src="./images/bg-pattern-top-desktop.svg"
+        alt="desktop-top"
+        class="hidden lg:block absolute top-0 left-0"
+      />
+      <img
+        src="./images/bg-pattern-bottom-desktop.svg"
+        alt="desktop-bottom"
+        class="hidden lg:block absolute bottom-0 right-0"
+      />
 
       <!-- bg-pattern-mobile -->
-      <img src="./images/bg-pattern-top-mobile.svg" alt="mobile-top" class="absolute lg:hidden top-0">
-      <img src="./images/bg-pattern-bottom-mobile.svg" alt="mobile-bottom" class="absolute lg:hidden bottom-0">
+      <img
+        src="./images/bg-pattern-top-mobile.svg"
+        alt="mobile-top"
+        class="absolute lg:hidden top-0"
+      />
+      <img
+        src="./images/bg-pattern-bottom-mobile.svg"
+        alt="mobile-bottom"
+        class="absolute lg:hidden bottom-0"
+      />
 
       <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 py-16 lg:py-24">
         <div class="text-center lg:text-left lg:col-span-2">
